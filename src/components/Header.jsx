@@ -3,7 +3,7 @@ import "../styles/Header.scss";
 import Menu from "../components/Menu";
 import MyOrder from "../containers/MyOrder";
 import IconMenu from "../assets/icons/icon_menu.svg";
-import Logo from "../assets/images/logo.jpeg";
+import Logo from "../assets/images/Logo.jpeg";
 import AppContext from "../context/AppContext";
 import ShoppingCart from "../assets/icons/icon_shopping_cart.svg";
 
