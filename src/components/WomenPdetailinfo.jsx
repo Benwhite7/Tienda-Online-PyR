@@ -1,9 +1,9 @@
 import React , { useContext } from "react";
 import AppContext from "../context/AppContext";
 import AddTocart from "../assets/icons/bt_add_to_cart.svg";
-import "../styles/ProductInfo.scss";
+import "../styles/WomenProductDetailinfo.scss";
 
-const ProductInfo = ({ product }) => {
+const WomenProductDetailinfo = ({ product }) => {
 
     const { initialStates } = useContext(AppContext);
     const addToCartS = (initialStates.addToCart);
@@ -15,7 +15,7 @@ const ProductInfo = ({ product }) => {
     return (
         <>
             <img src={product.image} alt="Lite Racer 2.0" />
-            <div className="product-inf">
+            <div className="Womenproduct-inf">
                 <p>S/{product.price}</p>
                 <p>{product.title}</p>
                 <p>{product.description}
@@ -29,4 +29,4 @@ const ProductInfo = ({ product }) => {
     );
 }
 
-export default ProductInfo;
+export default WomenProductDetailinfo;

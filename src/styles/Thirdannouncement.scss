@@ -1,0 +1,82 @@
+.thirdannouncement {
+    width: 950px;
+    height: 500px;
+    display: flex;
+    background-color: lightsalmon;
+}
+
+.thirdannouncement img {
+    width: 500px;
+    height: 500px;
+}
+
+.Linkthird {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.Linkthird h1 {
+    color: black;
+    width: 340px;
+    height: 120px;
+    margin: 5px;
+    font-size: 48px;
+}
+
+.Linkthird p {
+    color: black;
+}
+
+.Linkthird a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 8px;
+    border-radius: 8px;
+    bottom: 0px;
+    right: 0px;
+    width: 215px;
+    height: 40px;
+}
+
+@media (max-width: 640px) {
+    .thirdannouncement {
+        width: 100%;
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thirdannouncement img {
+        margin-top: 10px;
+        width: 330px;
+        height: 330px;
+    }
+
+    .Linkthird {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+    }
+
+    .Linkthird h1 {
+        width: 220px;
+        height: 20px;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .Linkthird a {
+        font-size: 20px;
+        bottom: 0px;
+        right: 0px;
+        width: 145px;
+        height: 25px;
+    }
+}

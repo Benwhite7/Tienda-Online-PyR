@@ -1,0 +1,42 @@
+@use "vars";
+
+.MenproductItem {
+    width: 240px;
+}
+
+.MenproductItem img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.MenproductItem .menproduct-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.MenproductItem .menproduct-info figure {
+    margin: 0;
+}
+
+.MenproductItem .menproduct-info figure img {
+    width: 35px;
+    height: 35px;
+}
+
+.MenproductItem .menproduct-info div p:nth-child(1) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.MenproductItem .menproduct-info div p:nth-child(2) {
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--very-light-pink);
+}

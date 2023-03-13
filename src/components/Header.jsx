@@ -1,4 +1,4 @@
-import React, { useState , useContext } from "react";
+import React, { useState, useContext } from "react";
 import "../styles/Header.scss";
 import Menu from "../components/Menu";
 import MyOrder from "../containers/MyOrder";
@@ -9,7 +9,7 @@ import ShoppingCart from "../assets/icons/icon_shopping_cart.svg";
 
 const Header = () => {
     const [toggle, setToggle] = useState(false);
-    const [toggleOrders , setToggleOrders ] = useState(false);
+    const [toggleOrders, setToggleOrders] = useState(false);
     const { initialStates } = useContext(AppContext);
     const state = (initialStates.state)
 
@@ -28,19 +28,19 @@ const Header = () => {
 
                 <ul>
                     <li>
-                        <a href="/">Todos</a>
+                        <a href="/">Inicio</a>
                     </li>
                     <li>
-                        <a href="/">Hombre</a>
+                        <a href="/men">Hombre</a>
                     </li>
                     <li>
-                        <a href="/">Mujer</a>
+                        <a href="/women">Mujer</a>
                     </li>
                     <li>
-                        <a href="/">Deportes</a>
+                        <a href="/sports">Deportes</a>
                     </li>
                     <li>
-                        <a href="/">Ropa</a>
+                        <a href="/acc">Accesorios</a>
                     </li>
                     <li>
                         <a href="/company">Nosotros</a>
@@ -55,12 +55,12 @@ const Header = () => {
                     </li>
                     <li className="navbar-shopping-cart" onClick={handleToggleOrders}>
                         <img src={ShoppingCart} alt="shopping cart" />
-                        {state.cart.length > 0 ? <div>{state.cart.length}</div> : null }
+                        {state.cart.length > 0 ? <div>{state.cart.length}</div> : null}
                     </li>
                 </ul>
             </div>
-            {toggle && <Menu/>}
-            {toggleOrders && <MyOrder/>}
+            {toggle && <Menu />}
+            {toggleOrders && <MyOrder />}
         </nav>
     );
 }

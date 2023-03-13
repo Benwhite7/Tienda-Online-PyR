@@ -1,0 +1,42 @@
+@use "vars";
+
+.AccproductItem {
+    width: 240px;
+}
+
+.AccproductItem img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.AccproductItem .accproduct-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.AccproductItem .accproduct-info figure {
+    margin: 0;
+}
+
+.AccproductItem .accproduct-info figure img {
+    width: 35px;
+    height: 35px;
+}
+
+.AccproductItem .accproduct-info div p:nth-child(1) {
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.AccproductItem .accproduct-info div p:nth-child(2) {
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--very-light-pink);
+}

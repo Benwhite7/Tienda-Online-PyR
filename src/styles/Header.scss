@@ -74,3 +74,15 @@ nav {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 640px) {
+	.navbar-left ul {
+        display: none;
+    }
+    .nav {
+     align-items: center;
+    }
+    .navbar-right ul{
+        right: 20px;
+    }
+}

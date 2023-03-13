@@ -1,24 +1,24 @@
 @use "vars";
 
-.product-inf {
+.Sportsproduct-inf {
     margin: 24px 24px 0 24px;
     margin: 5px;
 }
 
-.product-inf p:nth-child(1) {
+.Sportsproduct-inf p:nth-child(1) {
     font-weight: bold;
     font-size: var(--md);
     color: white;
 }
 
-.product-inf p:nth-child(2) {
+.Sportsproduct-inf p:nth-child(2) {
     color:black;
     font-size: var(--md);
     margin-top: 0;
     color: white;
 }
 
-.product-inf p:nth-child(3) {
+.Sportsproduct-inf p:nth-child(3) {
     color: black;
     font-size: var(--sm);
     margin-top: 0;
@@ -51,7 +51,7 @@
 	justify-content: center;
 }
 @media (max-width: 640px) {
-    .product-inf {
+    .Sportsproduct-inf {
         padding: 10px;
     }
 }

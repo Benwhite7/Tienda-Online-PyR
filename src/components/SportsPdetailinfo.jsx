@@ -1,27 +1,27 @@
-import React , { useContext } from "react";
+import React, { useContext } from "react";
 import AppContext from "../context/AppContext";
 import AddTocart from "../assets/icons/bt_add_to_cart.svg";
-import "../styles/ProductInfo.scss";
+import "../styles/SportsProductDetailinfo.scss";
 
-const ProductInfo = ({ product }) => {
+const SportsProductDetailinfo = ({ product }) => {
 
     const { initialStates } = useContext(AppContext);
     const addToCartS = (initialStates.addToCart);
-    
+
     const handleClick = item => {
         addToCartS(item);
-      };
+    };
 
     return (
         <>
             <img src={product.image} alt="Lite Racer 2.0" />
-            <div className="product-inf">
+            <div className="Sportsproduct-inf">
                 <p>S/{product.price}</p>
                 <p>{product.title}</p>
                 <p>{product.description}
                 </p>
                 <button onClick={() => handleClick(product)} className="primary-button add-to-cart-button">
-                    <img  src={AddTocart} alt="add to cart" />
+                    <img src={AddTocart} alt="add to cart" />
                     Add to cart
                 </button>
             </div>
@@ -29,4 +29,4 @@ const ProductInfo = ({ product }) => {
     );
 }
 
-export default ProductInfo;
+export default SportsProductDetailinfo;
