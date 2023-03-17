@@ -1,14 +1,20 @@
-.firstannouncement {
-    width: 100%;
-    height: 700px;
+.Allcontainer {
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: black;
-    display: flex;
+    color: white;
+}
+
+.firstannouncement {
+    background-color: black;
     align-items: center;
 }
 
 .firstannouncement img {
-    width: 1165px;
-    height: 695px;
+    object-fit: cover;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .announcement {
@@ -17,16 +23,18 @@
 }
 
 .Link {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 10px;
+    align-content: center;
+    background-color: black;
 }
 
 .Link h1 {
     color: white;
     width: 500px;
     height: 150px;
-    font-size: 60px;
+    font-size: 55px;
     margin: 5px;
 }
 
@@ -47,23 +55,23 @@
 }
 
 @media (max-width: 640px) {
+    .Allcontainer {
+        grid-template-columns: auto;
+
+    }
+
+    .firstannouncement img {
+        width: 100%;
+        height: 100%;
+    }
+
     .announcement {
         flex-direction: column;
     }
 
-    .firstannouncement {
-        height: 500px;
-        flex-direction: column;
-    }
-
-    .firstannouncement img {
-        width: 530px;
-        height: 310px;
-    }
-
     .Link {
-        align-items: center;
-        margin-left: 0px;
+        justify-items: center;
+        padding: 20px;
     }
 
     .Link h1 {

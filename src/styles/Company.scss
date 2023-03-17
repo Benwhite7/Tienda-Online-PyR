@@ -5,7 +5,14 @@
     margin-top: 20px;
 }
 .description {
-    width: 900px;
-    height: 100px;
+    width: auto;
+    height: auto;
+    padding: 10px;
     text-align: center;
 }
+@media (max-width:640px){
+    .company img{
+        width: auto;
+        height: auto;
+    }
+ }
