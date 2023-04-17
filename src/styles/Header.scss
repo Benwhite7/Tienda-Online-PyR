@@ -11,6 +11,10 @@ nav {
     display: none;
 }
 
+.access{
+  display: none;
+}
+
 .logo {
     height: 80px;
     margin-top: 5px;
@@ -84,5 +88,11 @@ nav {
     }
     .navbar-right ul{
         right: 20px;
+    }
+    .logo {
+        display: none;
+    }
+    .access {
+        display: block;
     }
 }
