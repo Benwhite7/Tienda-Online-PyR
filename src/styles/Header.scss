@@ -41,13 +41,13 @@ nav {
     color: var(--very-light-pink);
     border: 1px solid var(--white);
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
-    border: 1px solid var(--hospital-green);
-    color: var(--hospital-green);
+    background-color: black;
+    color: white    ;
 }
 
 .navbar-email {

@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
-import "../styles/MyOrder.scss"
 import OrderItem from "../components/OrderItem";
 import AppContext from "../context/AppContext";
 import flechita from "../assets/icons/flechita.svg";
+import "../styles/MyOrder.scss";
 
 const MyOrder = () => {
     const { initialStates } = useContext(AppContext);
@@ -18,7 +18,7 @@ const MyOrder = () => {
         <aside className="MyOrder">
             <div className="title-container">
                 <img src={flechita} alt="arrow" />
-                <p className="title">My Order</p>
+                <p className="title">Mi Orden</p>
             </div>
             <div className="my-order-content">
                 {state.cart.map((product, index) => (

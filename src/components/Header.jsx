@@ -24,7 +24,9 @@ const Header = () => {
         <nav>
 
             <div className="navbar-left">
+                <a href="/company">
                 <img src={Logo} alt="logo" className="logo" />
+                </a>
 
                 <ul>
                     <li>

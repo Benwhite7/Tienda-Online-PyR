@@ -1,5 +1,5 @@
 import React from "react";
-import Womenproducts from "../containers/Menproducts";
+import Womenproducts from "../containers/Womenproducts";
 import '../styles/Women.scss';
 
 const products = [

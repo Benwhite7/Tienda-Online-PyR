@@ -8,7 +8,8 @@ const products = [
         title: "Lite Racer 3.0",
         price: 160,
         image: "https://assets.adidas.com/images/w_320,f_auto,q_auto,fl_lossy,c_fill,g_auto/faa7b5f9ea7c4ecc8d08ad4a010e5127_9366/Zapatillas_Lite_Racer_3.0_Plomo_GY3100_01_standard.jpg",
-        description: "Descubre el maximo confort a la hora de caminar y correr , con las adidas Lite Racer 3.0"
+        description: "Descubre el maximo confort a la hora de caminar y correr , con las adidas Lite Racer 3.0",
+        enlace: "literacer3"
     },
     {
         id: "2",

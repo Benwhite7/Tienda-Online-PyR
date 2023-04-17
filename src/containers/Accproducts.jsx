@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import AppContext from "../context/AppContext";
-import addToCartImage from "../assets/icons/bt_add_to_cart.svg";
+import addToCartImage from "../assets/icons/bt_add_to_cart.png";
 import info from "../assets/images/info7.png";
 import Accproductdetail from "../components/Accproductdetail"
 import "../styles/Accproducts.scss";

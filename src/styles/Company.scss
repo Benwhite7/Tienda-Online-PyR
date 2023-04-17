@@ -7,12 +7,15 @@
 .description {
     width: auto;
     height: auto;
-    padding: 10px;
+    padding: 55px;
     text-align: center;
 }
 @media (max-width:640px){
     .company img{
         width: auto;
         height: auto;
+    }
+    .description h2 {
+        font-size: 20px;
     }
  }

@@ -27,10 +27,10 @@
 }
 
 .primary-button {
-    background-color: var(--hospital-green);
+    background-color: white;
     border-radius: 8px;
     border: none;
-    color: var(--white);
+    color: black;
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
@@ -49,6 +49,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    gap: 5px;
 }
 @media (max-width: 640px) {
     .Accproduct-inf {

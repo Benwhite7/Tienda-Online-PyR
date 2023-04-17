@@ -1,8 +1,6 @@
 import React, { useState, useContext } from "react";
 import AppContext from "../context/AppContext";
-import addToCartImage from "../assets/icons/bt_add_to_cart.svg";
-import info from "../assets/images/info7.png";
-import Menproductdetail from "../components/Menproductdetail"
+import addToCartImage from "../assets/icons/bt_add_to_cart.png"
 import "../styles/Menproducts.scss";
 
 const Menproducts = ({ product }) => {
@@ -29,21 +27,21 @@ const Menproducts = ({ product }) => {
     const addtoCardStates = (initialCard.addToCardState);
 
     const addwiththeclick = item => {
-        addtoCardStates(item)
+        addtoCardStates(item);
     };
+    //
 
     return (
         <div className="MenproductItem">
             {open && <Menproductdetail newState={newState} />}
+            <a href="/literacer3">
             <img src={product.image} alt={product.title} />
-            <div className="menproduct-info">
+            </a>
+            <div className="menproduct-info" >
                 <div>
                     <p>S/{product.price}</p>
                     <p>{product.title}</p>
                 </div>
-                <figure onClick={openDetails}>
-                    <img onClick={() => addwiththeclick(product)} src={info} alt="icono" />
-                </figure>
                 <figure onClick={() => handleClick(product)} >
                     <img src={addToCartImage} alt="" />
                 </figure>
