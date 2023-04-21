@@ -1,6 +1,5 @@
 import React, { useState, useContext } from "react";
 import AppContext from "../context/AppContext";
-import addToCartImage from "../assets/icons/bt_add_to_cart.png";
 import info from "../assets/images/info7.png";
 import Accproductdetail from "../components/Accproductdetail"
 import "../styles/Accproducts.scss";
@@ -43,9 +42,6 @@ const Accproducts = ({ product }) => {
                 </div>
                 <figure onClick={openDetails}>
                     <img onClick={() => addwiththeclick(product)} src={info} alt="icono" />
-                </figure>
-                <figure onClick={() => handleClick(product)} >
-                    <img src={addToCartImage} alt="" />
                 </figure>
 
             </div>

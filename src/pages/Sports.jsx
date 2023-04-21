@@ -5,10 +5,10 @@ import "../styles/Sports.scss"
 const products = [
     {
         id: "3",
-        title: "Predator Edge.3 Fg",
-        price: 250,
-        image: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e0cfbff6be164a2f9b83ae9e00ec2522_9366/Chimpunes_Predator_Edge.3_Terreno_Firme_Naranja_GW1005_01_standard_hover.jpg",
-        description: "El silo Predator uno de los mas iconicos en Adidas ; botas armadas de pequeñas incrustaciones de goma , hechas para dar la mayor rosca posible a la hora de patear"
+        title: "Puma Tacto II TT",
+        price: 150,
+        image: "https://oechsle.vteximg.com.br/arquivos/ids/13629842-1000-1000/2279035_7.jpg?v=638104411543770000",
+        description: "Chimpunes Puma hechos de un textil comodo y amoldablea tus pies , te brindaran mejor pegada"
     },
     {
         id: "7",
@@ -19,10 +19,10 @@ const products = [
     },
     {
         id: "14",
-        title: "Predator Edge.3 Low Fg",
-        price: 250,
-        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/117dcff8c7744d638044ae9e00e72ec2_9366/Chimpunes_Predator_Edge.3_Low_Terreno_Firme_Naranja_GW0994_01_standard_hover.jpg",
-        description: "El silo Predator uno de los mas iconicos en Adidas ; botas armadas de pequeñas incrustaciones de goma , hechas para dar la mayor rosca posible a la hora de patear"
+        title: "Puma Rapido III TT",
+        price: 150,
+        image: "https://falabella.scene7.com/is/image/FalabellaPE/18180335_1",
+        description: "Chimpunes Puma hechos de un textil comodo y amoldablea tus pies , te brindaran mejor pegada"
     }
 ]
 

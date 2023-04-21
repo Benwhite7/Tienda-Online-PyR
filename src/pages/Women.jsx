@@ -23,7 +23,21 @@ const products = [
         price: 140,
         image: "https://i.ebayimg.com/images/g/NSgAAOSwoeJhRI2K/s-l1600.jpg",
         description: " Reebok Lite 3.0 zapatilla de excelente calidad y confort , ideal para caminatas largas y el dia a dia"
-    }
+    },
+    {
+        id: "25",
+        title: "Duramo 9",
+        price: 150,
+        image: "https://assets.adidas.com/images/w_600,f_auto,q_auto/a866f3f9a7de4cab9306aba300feb0bf_9366/Zapatillas_para_correr_Duramo_9_Granate_FW2368_01_standard.jpg",
+        description: "Descubre la comodidad con las Adidas Duramo 9 "
+    },
+    {
+        id: "26",
+        title: "QT Racer Sport",
+        price: 160,
+        image: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/247e5871e281444c9296ac31010fe204_9366/Zapatillas_QT_Racer_Sport_Azul_FY5673_01_standard.jpg",
+        description: "Elementos reciclados que ademas de brindar un alto rendimiento , son gentiles con el medioambiente.  "
+    },
 ]
 
 const Women = () => {

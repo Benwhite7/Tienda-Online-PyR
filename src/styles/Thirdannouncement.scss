@@ -4,26 +4,20 @@
     grid-template-rows: minmax(auto, 500px);
     background-color: lightsalmon;
 }
-
 .thirdimage img {
     object-fit: cover;
-    display: inline-block;
     width: 100%;
     height: 100%;
 }
-
 .Linkthird {
     display: grid;
     grid-template-columns: auto;
     align-content: center;
     justify-items: center;
+    text-align: center;
     margin: 10px;
 }
-
 .Linkthird h1 {
-    color: black;
-    width: auto;
-    height: auto;
     margin: 5px;
     font-size: 38px;
 }
@@ -39,8 +33,6 @@
     font-size: 30px;
     padding: 8px;
     border-radius: 8px;
-    width: auto;
-    height: auto;
 }
 
 @media (max-width: 640px) {

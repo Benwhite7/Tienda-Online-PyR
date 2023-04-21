@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/layout";
-import Home from "../pages/Home";
-import NotFound from "../pages/NotFound";
 import AppContext from "../context/AppContext";
 import useInitialState from "../hooks/useInitialState";
 import useInitialDetail from "../hooks/useInitialCard";
@@ -12,19 +10,17 @@ import Women from "../pages/Women";
 import Men from "../pages/Men";
 import Sports from "../pages/Sports";
 import Acc from "../pages/Acc";
+import Home from "../pages/Home";
+import NotFound from "../pages/NotFound";
 import Literacer3 from "../Productspage/LiteRacer3";
 import Literacer2 from "../Productspage/LiteRacer2";
 import VectorRunner from "../Productspage/VectorRunner";
 import Energylux3 from "../Productspage/Energylux3";
 import LiteRacer22 from "../Productspage/LiteRacer22";
 import AdvantageBase from "../Productspage/AdvantageBase";
-import "../styles/global.css";
 import Lite3 from "../Productspage/Lite3";
 import Lite32 from "../Productspage/Lite32";
-
-
-
-
+import "../styles/global.css";
 
 const App = () => {
     const initialStates = useInitialState();

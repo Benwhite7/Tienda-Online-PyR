@@ -9,8 +9,6 @@ const AccproductDetail = ({ newState }) => {
 
     function closebutton() {
         const stateopen = !open;
-
-
         newState(stateopen)
     }
 
@@ -19,14 +17,16 @@ const AccproductDetail = ({ newState }) => {
     console.log(cardState)
 
     return (
-        <aside className="AccProductDetail">
-            <div onClick={closebutton} className="ProductDetail-close">
-                <img src={Iconclose} alt="close" />
-            </div>
-            {cardState.card.map(product => (
-                <AccProductDetailinfo product={product} key={product.id} />
-            ))}
-        </aside>
+        <div className="GlassDetail">
+            <aside className="AccProductDetail">
+                <div onClick={closebutton} className="ProductDetail-close-acc">
+                    <img src={Iconclose} alt="close" />
+                </div>
+                {cardState.card.map(product => (
+                    <AccProductDetailinfo product={product} key={product.id} />
+                ))}
+            </aside>
+        </div>
     );
 }
 

@@ -20,7 +20,13 @@ const AccProductDetailinfo = ({ product }) => {
                 <p>{product.title}</p>
                 <p>{product.description}
                 </p>
-                <button onClick={() => handleClick(product)} className="primary-button add-to-cart-button">
+                <p>
+                    Tallas disponibles:
+                </p>
+                <div className="sizesacc" >
+                    <button>{product.sizes}</button>
+                </div>
+                <button onClick={() => handleClick(product)} className="primary-button-acc add-to-cart-button">
                     <img src={AddTocart} alt="add to cart" />
                     Add to cart
                 </button>

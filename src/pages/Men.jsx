@@ -59,7 +59,36 @@ const products = [
         price: 160,
         image: "https://www.efootwear.eu/media/catalog/product/cache/image/650x650/0/2/02_0000209972009_swa.jpg",
         description: "Luce un calzado cómodo, moderno y resistente gracias a Reebok ,la suela ligera te brinda amortiguación premium desde el primer paso. "
-    }
+    },
+    {
+        id: "21",
+        title: "Grand Court TD Lifestyle C.",
+        price: 150,
+        image: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eea4a4e9ad3a4ac08cb6ae2a012dab40_9366/Zapatillas_adidas_Grand_Court_TD_Blanco_GW9252_01_standard.jpg",
+        description: "Luce tu estilos con las adidas Grand court TD , ideales para salir de paseo o el dia a dia."
+    },
+    {
+        id: "22",
+        title: "Galaxy 5",
+        price: 170,
+        image: "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c653d88f003245258132ab4a009c5169_9366/Zapatillas_Galaxy_5_Negro_FW5717_01_standard.jpg",
+        description: "¿Quieres un calzado para correr , pasear , hacer caminatas largas o para el dia a dia ? Galaxy 5 son la solución."
+    },
+    {
+        id: "23",
+        title: "Royale Complete Sport",
+        price: 150,
+        image: "https://cdn.zando.co.za/p/409922-2127-229904-1-zoom.jpg",
+        description: "Luce un calzado cómodo, moderno y resistente gracias a Reebok ,la suela ligera te brinda amortiguación premium desde el primer paso."
+    },
+    {
+        id: "24",
+        title: "Royale Complete Sport",
+        price: 140,
+        image: "https://cdn.zando.co.za/p/409921-1342-129904-1-zoom.jpg",
+        description: "Luce un calzado cómodo y moderno  gracias a Reebok , duración extendida gracias a los materiales de calidad"
+    },
+    
 ]
 
 const Men = () => {
